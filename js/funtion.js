@@ -3,3 +3,6 @@ function takeInput(id){
     document.getElementById(id).value='';
     return value;
 }
+function setArea(id,value){
+    document.getElementById(id).innerText=value;
+}
